@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="840" viewBox="0 0 1400 840">
+  <defs>
+    <linearGradient id="floor" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0" stop-color="#e2cfa7"></stop>
+      <stop offset="1" stop-color="#caa876"></stop>
+    </linearGradient>
+    <style>
+      .frame{fill:#8b5d3a;stroke:#6c4022;stroke-width:6}
+      .shelf{fill:#b38259;stroke:#6c4022;stroke-width:3}
+      .book{stroke:#402d1f;stroke-width:1}
+    </style>
+  </defs>
+
+  <!-- wall -->
+  <rect width="100%" height="100%" fill="#f4e9cf"></rect>
+  <!-- floor -->
+  <rect x="0" y="420" width="1400" height="420" fill="url(#floor)"></rect>
+  <!-- floor lines -->
+  <g stroke="#b28352" stroke-width="2" opacity=".7">
+    <line x1="0" y1="470" x2="1400" y2="470"></line>
+    <line x1="0" y1="520" x2="1400" y2="520"></line>
+    <line x1="0" y1="580" x2="1400" y2="580"></line>
+    <line x1="0" y1="650" x2="1400" y2="650"></line>
+    <line x1="0" y1="730" x2="1400" y2="730"></line>
+  </g>
+
+  <!-- pendants -->
+  <g fill="#f1e5b1" stroke="#d6c283" stroke-width="4">
+    <rect x="230" y="80" width="140" height="52" rx="26"></rect>
+    <rect x="650" y="80" width="140" height="52" rx="26"></rect>
+    <rect x="1070" y="80" width="140" height="52" rx="26"></rect>
+  </g>
+  <g stroke="#7c6a51" stroke-width="8">
+    <line x1="300" y1="0" x2="300" y2="80"></line>
+    <line x1="720" y1="0" x2="720" y2="80"></line>
+    <line x1="1140" y1="0" x2="1140" y2="80"></line>
+  </g>
+
+  <!-- window -->
+  <rect x="80" y="90" width="440" height="210" rx="12" fill="#9cc4df" stroke="#6a3f1e" stroke-width="10"></rect>
+  <rect x="90" y="100" width="420" height="130" fill="#99ccff"></rect>
+  <rect x="90" y="230" width="420" height="40" fill="#87b2d8"></rect>
+  <!-- simple skyline -->
+  <g>
+    <rect x="110" y="210" width="40" height="60" fill="#5d6f86"></rect>
+    <rect x="160" y="190" width="36" height="80" fill="#456f8a"></rect>
+    <rect x="206" y="170" width="48" height="100" fill="#6a88a1"></rect>
+    <rect x="260" y="200" width="40" height="70" fill="#5d6f86"></rect>
+    <rect x="308" y="185" width="36" height="85" fill="#456f8a"></rect>
+    <rect x="350" y="165" width="44" height="105" fill="#6a88a1"></rect>
+    <rect x="402" y="205" width="36" height="65" fill="#5d6f86"></rect>
+  </g>
+
+  <!-- left bookshelf -->
+  <g transform="translate(40,360)">
+    <rect width="360" height="360" rx="12" class="frame"></rect>
+    <g transform="translate(14,12)">
+      <rect width="332" height="100" rx="6" class="shelf"></rect>
+      <rect y="116" width="332" height="100" rx="6" class="shelf"></rect>
+      <rect y="232" width="332" height="100" rx="6" class="shelf"></rect>
+      <!-- books (top) -->
+      <g transform="translate(8,8)">
+        <rect width="26" height="84" fill="#315a80" class="book"></rect>
+        <rect x="34" width="20" height="84" fill="#d86d3a" class="book"></rect>
+        <rect x="60" width="22" height="84" fill="#79a357" class="book"></rect>
+        <rect x="86" width="24" height="84" fill="#a8566d" class="book"></rect>
+        <rect x="114" width="18" height="84" fill="#455b2d" class="book"></rect>
+        <rect x="136" width="28" height="84" fill="#8c6f4f" class="book"></rect>
+        <rect x="168" width="22" height="84" fill="#3a7f83" class="book"></rect>
+        <rect x="194" width="24" height="84" fill="#b39d79" class="book"></rect>
+        <rect x="222" width="22" height="84" fill="#2e5a4f" class="book"></rect>
+        <rect x="248" width="22" height="84" fill="#6a6aa3" class="book"></rect>
+        <rect x="274" width="22" height="84" fill="#b34d42" class="book"></rect>
+      </g>
+      <!-- books (middle) -->
+      <g transform="translate(8,124)">
+        <rect width="20" height="84" fill="#bf9f3d" class="book"></rect>
+        <rect x="24" width="26" height="84" fill="#315a80" class="book"></rect>
+        <rect x="54" width="18" height="84" fill="#d86d3a" class="book"></rect>
+        <rect x="76" width="24" height="84" fill="#79a357" class="book"></rect>
+        <rect x="104" width="22" height="84" fill="#a8566d" class="book"></rect>
+        <rect x="130" width="18" height="84" fill="#455b2d" class="book"></rect>
+        <rect x="152" width="22" height="84" fill="#8c6f4f" class="book"></rect>
+        <rect x="178" width="22" height="84" fill="#3a7f83" class="book"></rect>
+        <rect x="204" width="20" height="84" fill="#b39d79" class="book"></rect>
+        <rect x="228" width="28" height="84" fill="#2e5a4f" class="book"></rect>
+        <rect x="260" width="22" height="84" fill="#6a6aa3" class="book"></rect>
+        <rect x="286" width="22" height="84" fill="#b34d42" class="book"></rect>
+      </g>
+      <!-- books (bottom) -->
+      <g transform="translate(8,240)">
+        <rect width="28" height="84" fill="#315a80" class="book"></rect>
+        <rect x="32" width="22" height="84" fill="#79a357" class="book"></rect>
+        <rect x="58" width="20" height="84" fill="#d86d3a" class="book"></rect>
+        <rect x="82" width="24" height="84" fill="#6a6aa3" class="book"></rect>
+        <rect x="110" width="22" height="84" fill="#b39d79" class="book"></rect>
+        <rect x="136" width="20" height="84" fill="#2e5a4f" class="book"></rect>
+        <rect x="160" width="26" height="84" fill="#a8566d" class="book"></rect>
+        <rect x="190" width="22" height="84" fill="#315a80" class="book"></rect>
+        <rect x="216" width="24" height="84" fill="#79a357" class="book"></rect>
+        <rect x="244" width="20" height="84" fill="#8c6f4f" class="book"></rect>
+        <rect x="268" width="22" height="84" fill="#b34d42" class="book"></rect>
+      </g>
+    </g>
+  </g>
+
+  <!-- right bookshelf -->
+  <g transform="translate(1000,100)">
+    <rect width="300" height="460" rx="12" class="frame"></rect>
+    <g transform="translate(14,12)">
+      <rect width="272" height="130" rx="6" class="shelf"></rect>
+      <rect y="146" width="272" height="130" rx="6" class="shelf"></rect>
+      <rect y="292" width="272" height="130" rx="6" class="shelf"></rect>
+      <!-- a few books per shelf -->
+      <g transform="translate(8,8)">
+        <rect width="20" height="114" fill="#6a6aa3" class="book"></rect>
+        <rect x="24" width="22" height="114" fill="#315a80" class="book"></rect>
+        <rect x="48" width="26" height="114" fill="#d86d3a" class="book"></rect>
+        <rect x="78" width="22" height="114" fill="#79a357" class="book"></rect>
+        <rect x="102" width="24" height="114" fill="#2e5a4f" class="book"></rect>
+        <rect x="130" width="22" height="114" fill="#b39d79" class="book"></rect>
+      </g>
+      <g transform="translate(8,154)">
+        <rect width="20" height="114" fill="#b34d42" class="book"></rect>
+        <rect x="24" width="28" height="114" fill="#315a80" class="book"></rect>
+        <rect x="56" width="22" height="114" fill="#6a6aa3" class="book"></rect>
+        <rect x="80" width="22" height="114" fill="#79a357" class="book"></rect>
+        <rect x="104" width="24" height="114" fill="#d86d3a" class="book"></rect>
+      </g>
+      <g transform="translate(8,300)">
+        <rect width="22" height="114" fill="#315a80" class="book"></rect>
+        <rect x="26" width="20" height="114" fill="#bf9f3d" class="book"></rect>
+        <rect x="50" width="24" height="114" fill="#2e5a4f" class="book"></rect>
+        <rect x="78" width="26" height="114" fill="#a8566d" class="book"></rect>
+        <rect x="108" width="24" height="114" fill="#6a6aa3" class="book"></rect>
+      </g>
+    </g>
+  </g>
+
+  <!-- desk -->
+  <g>
+    <rect x="640" y="470" width="540" height="230" rx="10" fill="#6b5245" stroke="#4a3b33" stroke-width="4"></rect>
+    <rect x="620" y="442" width="580" height="28" rx="8" fill="#493b30" stroke="#312821" stroke-width="3"></rect>
+    <rect x="660" y="510" width="220" height="160" rx="10" fill="#7b6053" stroke="#4a3b33" stroke-width="3"></rect>
+    <rect x="900" y="510" width="220" height="160" rx="10" fill="#7b6053" stroke="#4a3b33" stroke-width="3"></rect>
+    <!-- monitor -->
+    <g>
+      <rect x="780" y="410" width="240" height="90" rx="10" fill="#cfd7de" stroke="#8a9aa8" stroke-width="4"></rect>
+      <rect x="852" y="500" width="96" height="22" fill="#3f4e56" stroke="#2a363c"></rect>
+      <rect x="836" y="522" width="128" height="14" fill="#2a363c"></rect>
+      <circle cx="900" cy="454" r="20" fill="none" stroke="#74848e" stroke-width="4"></circle>
+    </g>
+    <!-- librarian -->
+    <circle cx="760" cy="452" r="16" fill="#ffd3ad" stroke="#b98561"></circle>
+    <rect x="720" y="452" width="80" height="92" rx="12" fill="#ef8d41" stroke="#b36027" stroke-width="4"></rect>
+    <line x1="760" y1="470" x2="760" y2="508" stroke="#dde6ee" stroke-width="4"></line>
+    <rect x="746" y="508" width="28" height="22" rx="4" fill="#cfd7de" stroke="#8a9aa8"></rect>
+  </g>
+</svg>
